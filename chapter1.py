@@ -1,20 +1,32 @@
 import math
 #print("Hello World!")
 
-def convertToCelsius(tempInFarhenheit):
-    tempInCelcius = (tempInFarhenheit - 32) * 5 / 9
-    return tempInCelcius
+#def convertToCelsius(tempInFarhenheit):
+    #tempInCelcius = (tempInFarhenheit - 32) * 5 / 9
+    #return tempInCelcius
     
 
-tempInFarhenheit = float(input())
-celcius = convertToCelsius(tempInFarhenheit)
-print(celcius)
+#tempInFarhenheit = float(input())
+#celcius = convertToCelsius(tempInFarhenheit)
+#print(celcius)
 
 
-def converttoFahrenheit(tempInCelcius):
+#def converttoFahrenheit(tempInCelcius):
     tempInFarhenheit = tempInCelcius * (9 / 5) + 32
     return tempInFarhenheit
 
-tempInCelsius = float(input())
-farhenheit = converttoFahrenheit(tempInCelsius)
-print(farhenheit)
+#tempInCelsius = float(input())
+#farhenheit = converttoFahrenheit(tempInCelsius)
+#print(farhenheit)
+
+
+
+
+def isOdd( number ):
+    return number % 2 == 1
+
+def isEven( number ):
+    return number % 2 == 0
+
+
+    
