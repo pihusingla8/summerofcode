@@ -1,3 +1,4 @@
+# Method1:
 def isOdd( number ):
     return number % 2 == 1
 
@@ -10,3 +11,10 @@ if(isOdd(inputnum)):
 
 if(isEven(inputnum)):
     print("even number")
+
+# Method2:
+num=int(input("Enter num: "))
+if num%2==0:
+    print("Even")
+else:
+    print("Odd")
