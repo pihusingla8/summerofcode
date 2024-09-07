@@ -1,8 +1,8 @@
 
-#countries.append('Australicountries = ['India', 'United Kingdom', 'Sweden']
-#for country in countries:
-    #print(country)a')
-#print(countries)
+countries.append('Australicountries = ['India', 'United Kingdom', 'Sweden']
+for country in countries:
+    print(country)a')
+print(countries)
 print(countries[0] + 'is a nice country to live in')
 squares = []
 for value in range(1,11):
